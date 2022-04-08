@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="LWC File Upload" icon-name="custom:custom17">
+        <lightning-file-upload
+            label="Attach Document"
+            name="fileUpload"
+            accept={acceptedFormats}
+            record-id={recordId}
+            onuploadfinished={uploadHandler}
+            multiple>
+    </lightning-file-upload>
+    </lightning-card>
+</template>
